@@ -7,13 +7,16 @@ export const NavbarContainer = styled.div`
   position: fixed;
   gap: 5rem;
   z-index: 1;
-  height: 78vh;
+  height: 80vh;
   width: 210rem;
   top: 120rem; /* Stay at the top */
   left: 0; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
   justify-content: space-between;
+  background-color: rgba(18, 12, 24, 1);
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 export const NbContainer0 = styled.div``;
 export const NbContainer = styled.div`
@@ -48,9 +51,22 @@ export const NbDiv = styled.div`
   display: flex;
   gap: 3rem;
   padding: 5rem;
+  justify-content: center;
   border: 1px solid #24182f;
 `;
 export const NbSpan = styled.div`
   color: #f5f3f7;
   font-size: 12rem;
+`;
+export const Ul = styled.ul`
+  list-style-type: none;
+`;
+export const Li = styled.li`
+  font-size: 14rem;
+  color: #a197aa;
+  margin: 10rem 0;
+  &:hover {
+    cursor: pointer;
+    color: #f5f4f4;
+  }
 `;

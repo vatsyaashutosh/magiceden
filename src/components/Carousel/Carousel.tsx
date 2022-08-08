@@ -50,7 +50,7 @@ const Carousel = ({ children }: IProps) => {
     );
 
     return () => {};
-  }, [currentSlide]);
+  }, [currentSlide, children.length]);
   const activeSlide = children.map((slide, index) => (
     <SCarouselSlide active={currentSlide === index} key={index}>
       {slide}

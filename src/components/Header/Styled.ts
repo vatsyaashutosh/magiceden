@@ -6,6 +6,12 @@ export const HeadContainer = styled.div`
   width: 100vw;
   height: 80rem;
   align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  background-color: rgba(18, 12, 24, 1);
 `;
 export const Logo = styled.img`
   width: 180rem;
@@ -47,6 +53,7 @@ export const WalletContainer = styled.div`
   border: 1px solid rgb(228, 37, 117);
   border-right: none;
   border-radius: 5rem;
+  margin-right: 20rem;
 `;
 export const ProfileIcon = styled.img``;
 export const Div = styled.div`

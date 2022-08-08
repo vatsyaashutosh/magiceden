@@ -24,6 +24,7 @@ export const HeaderSubContainerMiddle = styled.div`
 `;
 export const LanguageSelect = styled.select`
   background-color: transparent;
+  margin-right: 20rem;
   color: lightgray;
   border: none;
   &:hover {
