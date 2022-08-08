@@ -73,31 +73,31 @@ export const data2 = [
   {
     icon: l1,
     name: "IOS App",
-    id: 1,
+    id: 11,
   },
   {
     icon: l2,
     name: "Discord",
-    id: 2,
+    id: 12,
   },
   {
     icon: l3,
     name: "Tik Tok",
-    id: 3,
+    id: 13,
   },
   {
     icon: l4,
     name: "Youtube",
-    id: 4,
+    id: 14,
   },
   {
     icon: l5,
     name: "Twitter",
-    id: 5,
+    id: 15,
   },
   {
     icon: l6,
     name: "Instagram",
-    id: 6,
+    id: 16,
   },
 ];

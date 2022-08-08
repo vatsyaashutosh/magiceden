@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   Header,
   HeadingContainer,
@@ -6,10 +6,8 @@ import {
   MainHeading,
   MiddleContainer,
   SeeAll,
-  Span,
   TimeDiv,
   PopularCollectionContainer,
-  PCElement,
 } from "./styled";
 
 import down from "../../assets/images/down.svg";
@@ -36,7 +34,6 @@ const PopularCollection = () => {
               setSelected={setSelected}
               isActive={isActive}
               setAnything={setAnything}
-              setIsActive={setIsActive}
             />
             <Logo src={!isActive ? down : up2} />
           </TimeDiv>

@@ -14,18 +14,8 @@ interface Data {
   icon: string;
   name: string;
   list: string[];
-  id: number;
-  toggle: boolean;
-  setToggle: React.Dispatch<React.SetStateAction<boolean>>;
 }
-export const SIdeNavbarElements = ({
-  name,
-  icon,
-  list,
-  id,
-  toggle,
-  setToggle,
-}: Data) => {
+export const SIdeNavbarElements = ({ name, icon, list }: Data) => {
   const [toggle0, setToggle0] = useState(false);
 
   const handleClick = () => {
@@ -41,8 +31,8 @@ export const SIdeNavbarElements = ({
       </NavbarSubContainer>
       {toggle0 && (
         <Ul>
-          {list.map((ele) => (
-            <Li key={id}>{ele}</Li>
+          {list.map((ele, i) => (
+            <Li key={i}>{ele}</Li>
           ))}
         </Ul>
       )}
