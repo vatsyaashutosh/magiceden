@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+
 export const HeadContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -52,6 +54,7 @@ export const WalletContainer = styled.div`
   display: flex;
   border: 1px solid rgb(228, 37, 117);
   border-right: none;
+  align-items: center;
   border-radius: 5rem;
   margin-right: 20rem;
 `;
@@ -64,7 +67,7 @@ export const Div = styled.div`
     cursor: pointer;
   }
 `;
-export const Button = styled.button`
+export const Button = styled(WalletMultiButton)`
   background-color: transparent;
   color: #f8f7f8;
   height: 100%;

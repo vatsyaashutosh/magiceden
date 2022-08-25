@@ -14,6 +14,7 @@ import {
 import logo from "../../assets/images/logo.svg";
 import search from "../../assets/images/search.svg";
 import icon from "../../assets/images/icon.svg";
+import Wallet from "./Wallet";
 
 export const Header = () => {
   return (
@@ -30,7 +31,7 @@ export const Header = () => {
           <ProfileIcon src={icon} />
         </Div>
         <Div>
-          <Button>Connect Wallet</Button>
+          <Wallet />
         </Div>
       </WalletContainer>
     </HeadContainer>

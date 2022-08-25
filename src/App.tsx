@@ -7,6 +7,7 @@ import { Header } from "./components/Header/Header";
 import { SideNavbar } from "./components/SideNavbar/SideNavbar";
 import LandingPage from "./components/LandingPage/LandingPage";
 import PopularCollection from "./components/PopularCollections/PopularCollection";
+
 function App() {
   return (
     <s.LandingPageContainer>
